@@ -23,7 +23,7 @@
             <h4 class="mb-0">لوگو</h4>
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-0"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#menu"
@@ -32,34 +32,82 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="offcanvas offcanvas-end"
+            class="offcanvas offcanvas-end bg-navbar"
             tabindex="-1"
             id="menu"
             aria-labelledby="offcanvasNavbarLabel"
           >
-            <ul class="navbar-nav text-center me-auto ps-0 menu">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white">خانه</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link text-white"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  role="button"
-                  >لیست
-                  <i class="fa fa-chevron-down align-middle"></i>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark bg-navbar">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <div class="offcanvas-header">
+              <a href="#" class="navbar-brand d-md-none">
+                <h4>لوگو</h4>
+              </a>
+              <button
+                type="button "
+                class="btn-close btn-close-white border-0"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav me-auto ps-0 menu justify-content-end flex-grow-1 flex-md-grow-0 justify-content-md-center"
+              >
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">خانه</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link text-white"
+                    data-bs-toggle="dropdown"
+                    data-bs-target="#navdrop1"
+                    aria-expanded="false"
+                    role="button"
+                    >لیست
+                    <i class="fa fa-chevron-down align-middle ms-1"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu bg-navbar dropdown-menu-dark dropdown-menu-start border-0"
+                    id="navdrop1"
+                  >
+                    <a href="#" class="dropdown-item">لیست شماره 1</a>
+                    <a href="#" class="dropdown-item">لیست شماره 2</a>
+                    <a href="#" class="dropdown-item">لیست شماره 3</a>
+                    <a href="#" class="dropdown-item">لیست شماره 4</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link text-white"
+                    data-bs-target="#navdrop2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    role="button"
+                    >ویژگی ها
+                    <i class="fa fa-chevron-down align-middle ms-1"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu bg-navbar dropdown-menu-dark dropdown-menu-start border-0"
+                    id="navdeop2"
+                  >
+                    <a href="#" class="dropdown-item">ویژگی ها شماره 1</a>
+                    <a href="#" class="dropdown-item">ویژگی ها شماره 2</a>
+                    <a href="#" class="dropdown-item">ویژگی ها شماره 3</a>
+                    <a href="#" class="dropdown-item">ویژگی ها شماره 4</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">مقالات</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">تماس با ما</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">درباره ما</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>
