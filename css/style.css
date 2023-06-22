@@ -89,5 +89,59 @@
   background-color: #1d2a3d;
 }
 .menu li a {
-  font-size: 13px;
+  font-size: 0.85rem;
+}
+.menu .nav-item:not(:last-child) .nav-link {
+  border-radius: 5px;
+  color: #fff;
+}
+.menu .nav-item:not(:last-child) a:hover {
+  background-color: #fff;
+  transition: all 0.2s ease;
+  color: #1d2a3d;
+}
+.menu .dropdown-menu .dropdown-item:hover {
+  background: #1d2a3d !important;
+  color: #fff !important;
+}
+
+.menu .nav-item:last-child {
+  background-color: #344765;
+  border-radius: 7px;
+  transition: 0.3s;
+  border: 1px solid #344765;
+}
+.menu .nav-item:last-child a {
+  color: #fff;
+  transition: 0.3s;
+}
+.menu .nav-item:last-child:hover {
+  background-color: transparent;
+  border-color: #fff;
+  transition: 0.3;
+}
+
+@media screen and (min-width: 768px) {
+  .menu .dropdown-menu {
+    display: block;
+    border-radius: 0;
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    margin-top: 1.5em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .menu .nav-item:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    margin: 0.5em;
+    color: #1d2a3d !important;
+    transition: all 0.2s;
+  }
+  .menu .dropdown-menu a {
+    transition: 0.2s;
+    margin: 10px 0px;
+  }
 }

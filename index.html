@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./css/hover-min.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/slick-theme.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.rtl.css" />
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
 
@@ -19,99 +19,140 @@
     <header class="bg-navbar">
       <div class="container">
         <nav class="navbar navbar-dark navbar-expand-md">
-          <a href="#" class="navbar-brand d-none d-md-block">
-            <h4 class="mb-0">لوگو</h4>
+          <a href="#" class="navbar-brand d-md-none">
+            <h4 class="mb-0">LOGO</h4>
           </a>
           <button
             class="navbar-toggler border-0"
             type="button"
-            data-bs-toggle="offcanvas"
+            data-bs-toggle="collapse"
             data-bs-target="#menu"
-            aria-controls="offcanvasNavbar"
+            aria-expanded="false"
+            aria-controls="collapseExample"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="offcanvas offcanvas-end bg-navbar"
-            tabindex="-1"
+            class="collapse navbar-collapse bg-navbar"
             id="menu"
             aria-labelledby="offcanvasNavbarLabel"
           >
-            <div class="offcanvas-header">
-              <a href="#" class="navbar-brand d-md-none">
-                <h4>لوگو</h4>
-              </a>
-              <button
-                type="button "
-                class="btn-close btn-close-white border-0"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul
-                class="navbar-nav me-auto ps-0 menu justify-content-end flex-grow-1 flex-md-grow-0 justify-content-md-center"
-              >
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-white">خانه</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    href="#"
-                    class="nav-link text-white"
-                    data-bs-toggle="dropdown"
-                    data-bs-target="#navdrop1"
-                    aria-expanded="false"
-                    role="button"
-                    >لیست
-                    <i class="fa fa-chevron-down align-middle ms-1"></i>
-                  </a>
-                  <div
-                    class="dropdown-menu bg-navbar dropdown-menu-dark dropdown-menu-start border-0"
-                    id="navdrop1"
-                  >
-                    <a href="#" class="dropdown-item">لیست شماره 1</a>
-                    <a href="#" class="dropdown-item">لیست شماره 2</a>
-                    <a href="#" class="dropdown-item">لیست شماره 3</a>
-                    <a href="#" class="dropdown-item">لیست شماره 4</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    href="#"
-                    class="nav-link text-white"
-                    data-bs-target="#navdrop2"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    role="button"
-                    >ویژگی ها
-                    <i class="fa fa-chevron-down align-middle ms-1"></i>
-                  </a>
-                  <div
-                    class="dropdown-menu bg-navbar dropdown-menu-dark dropdown-menu-start border-0"
-                    id="navdeop2"
-                  >
-                    <a href="#" class="dropdown-item">ویژگی ها شماره 1</a>
-                    <a href="#" class="dropdown-item">ویژگی ها شماره 2</a>
-                    <a href="#" class="dropdown-item">ویژگی ها شماره 3</a>
-                    <a href="#" class="dropdown-item">ویژگی ها شماره 4</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-white">مقالات</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-white">تماس با ما</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-white">درباره ما</a>
-                </li>
-              </ul>
-            </div>
+            <ul class="navbar-nav me-auto ps-0 menu text-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link">خانه</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link"
+                  data-bs-toggle="dropdown"
+                  data-bs-target="#navdrop1"
+                  aria-expanded="false"
+                  role="button"
+                  >لیست
+                  <i class="fa fa-chevron-down align-middle ms-1"></i>
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-start border-0"
+                  id="navdrop1"
+                >
+                  <a href="#" class="dropdown-item">لیست شماره 1</a>
+                  <a href="#" class="dropdown-item">لیست شماره 2</a>
+                  <a href="#" class="dropdown-item">لیست شماره 3</a>
+                  <a href="#" class="dropdown-item">لیست شماره 4</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link"
+                  data-bs-target="#navdrop2"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  role="button"
+                  >ویژگی ها
+                  <i class="fa fa-chevron-down align-middle ms-1"></i>
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-start border-0"
+                  id="navdeop2"
+                >
+                  <a href="#" class="dropdown-item">ویژگی ها شماره 1</a>
+                  <a href="#" class="dropdown-item">ویژگی ها شماره 2</a>
+                  <a href="#" class="dropdown-item">ویژگی ها شماره 3</a>
+                  <a href="#" class="dropdown-item">ویژگی ها شماره 4</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">مقالات</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">تماس با ما</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">درباره ما</a>
+              </li>
+              <li class="nav-item border-start ps-2 ms-2">
+                <a href="#" class="nav-link">
+                  <i class="fa-solid fa-user-plus me-1 align-middle"></i>
+                  عضویت
+                </a>
+              </li>
+              <li class="nav-item ms-2">
+                <a href="#" class="nav-link">
+                  <i class="fa-solid fa-plus align-middle me-1"></i>
+                  ایجاد آگهی
+                </a>
+              </li>
+            </ul>
           </div>
+          <a href="#" class="navbar-brand d-md-block d-none">
+            <h4 class="mb-0">LOGO</h4>
+          </a>
         </nav>
       </div>
     </header>
+    <div class="header-two bg-white py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form
+              class="d-lg-flex justify-content-center align-items-center text-center"
+            >
+              <input
+                type="text"
+                placeholder="عنوان آگهی ..."
+                class="form-control me-lg-3 mb-2 mb-lg-0"
+              />
+              <select class="form-select me-lg-3 mb-2 mb-lg-0">
+                <option value="1" selected>نوع ملک</option>
+                <option value="2">آپارتمان</option>
+                <option value="3">ویلایی</option>
+              </select>
+              <select class="form-select me-lg-3 mb-2 mb-lg-0">
+                <option value="1" selected>موقعیت</option>
+                <option value="2">مرکز شهر</option>
+                <option value="3">جنوب</option>
+                <option value="3">شمال</option>
+                <option value="3">غزب</option>
+                <option value="3">شرق</option>
+              </select>
+              <select class="form-select me-lg-3 mb-2 mb-lg-0">
+                <option value="1" selected>قیمت</option>
+                <option value="2">زیر 300 میلیون تومان</option>
+                <option value="3">300 میلیون تمان-500 میلیون تومان</option>
+                <option value="3">500میلون تا 800 میلیون تومان</option>
+                <option value="3">800 میلیون تومان تا یک میلیار</option>
+                <option value="3">بالای یک میلیارد</option>
+              </select>
+              <a href="#" class="btn me-lg-3 pro-search">پیشرفته</a>
+              <button class="btn btn-danger">جستوجو</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end Header-->
 
     <script src="./js/all.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
