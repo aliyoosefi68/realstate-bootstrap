@@ -106,7 +106,7 @@
               </li>
             </ul>
           </div>
-          <a href="#" class="navbar-brand d-md-block d-none">
+          <a href="#" class="navbar-brand d-md-block d-none me-0">
             <h4 class="mb-0">LOGO</h4>
           </a>
         </nav>
@@ -146,13 +146,117 @@
                 <option value="3">بالای یک میلیارد</option>
               </select>
               <a href="#" class="btn me-lg-3 pro-search">پیشرفته</a>
-              <button class="btn btn-danger">جستوجو</button>
+              <button class="btn px-4">جستجو</button>
             </form>
           </div>
         </div>
       </div>
     </div>
     <!--end Header-->
+    <!--Start Slider-->
+    <div
+      id="home-slider"
+      class="carousel slide d-none d-md-block"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#home-slider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#home-slider"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#home-slider"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner position-relative">
+        <div class="carousel-item active">
+          <div
+            class="overlay position-absolute top-0 start-0 w-100 h-100 bg-black bg-opacity-50"
+          ></div>
+          <img
+            src="./images/jesse-roberts-561igiTyvSk-unsplash.jpg"
+            alt="slider1"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h4 class="mb-3 fw-light fs-4">قیمت: 760 میلیون تومان</h4>
+            <p class="fs-1" style="font-weight: 800">
+              خانه های ویلایی با دورنمای عالی
+            </p>
+            <p>اتاق:3 &nbsp;&nbsp;حمام:2</p>
+            <a href="#" class="btn px-5 btn-lg">رزرو کن!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="overlay position-absolute top-0 start-0 w-100 h-100 bg-black bg-opacity-50"
+          ></div>
+          <img
+            src="./images/jesse-roberts-561igiTyvSk-unsplash.jpg"
+            alt="slider1"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h4 class="mb-3 fw-light fs-4">قیمت: 760 میلیون تومان</h4>
+            <p class="fs-1" style="font-weight: 800">
+              خانه های ویلایی با دورنمای عالی
+            </p>
+            <p>اتاق:3 &nbsp;&nbsp;حمام:2</p>
+            <a href="#" class="btn px-5 btn-lg">رزرو کن!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="overlay position-absolute top-0 start-0 w-100 h-100 bg-black bg-opacity-50"
+          ></div>
+          <img
+            src="./images/jesse-roberts-561igiTyvSk-unsplash.jpg"
+            alt="slider1"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h4 class="mb-3 fw-light fs-4">قیمت: 760 میلیون تومان</h4>
+            <p class="fs-1" style="font-weight: 800">
+              خانه های ویلایی با دورنمای عالی
+            </p>
+            <p>اتاق:3 &nbsp;&nbsp;حمام:2</p>
+            <a href="#" class="btn px-5 btn-lg">رزرو کن!</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#home-slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#home-slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--finished Slider-->
 
     <script src="./js/all.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>

@@ -120,6 +120,50 @@
   border-color: #fff;
   transition: 0.3;
 }
+.header-two select,
+input {
+  outline: none !important;
+}
+
+.header-two select,
+input::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+}
+.header-two a {
+  font-size: 14px;
+  border-left: 4px dotted #ccc;
+  border-radius: 0;
+}
+.header-two a:hover {
+  border-left: 4px dotted #ccc;
+}
+.header-two button {
+  color: #fff;
+  background-color: rgb(233, 83, 79);
+  font-size: 14px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+.header-two button:hover {
+  background-color: #fff;
+  color: rgb(233, 83, 79);
+  border: 1px solid rgb(233, 83, 79);
+}
+#home-slider .carousel-caption {
+  top: 50%;
+}
+#home-slider .carousel-caption a {
+  font-size: 19px;
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid #fff;
+}
+#home-slider .carousel-caption a:hover {
+  background: #fff;
+  color: #000;
+  border-color: transparent;
+}
 
 @media screen and (min-width: 768px) {
   .menu .dropdown-menu {
