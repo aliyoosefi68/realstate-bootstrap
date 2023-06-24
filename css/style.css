@@ -164,7 +164,63 @@ input::placeholder {
   color: #000;
   border-color: transparent;
 }
+.features h5 {
+  font-size: 16;
+  font-weight: 600;
+}
+.features p {
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 7px;
+}
 
+/* slider-1st */
+.slider-1st {
+  position: relative;
+}
+.custom-card1 {
+  transition: 0.3s ease;
+}
+.custom-card1:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.card-img-custom {
+  position: relative;
+}
+.card-img-custom .overlay2 {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #1d2a3d;
+  opacity: 0.5;
+  color: #fff;
+}
+.card-img-custom .overlay-img-cad .top-img-slider small {
+  background-color: #1d2a3d;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 300;
+}
+.card-img-custom .overlay-img-cad .bottom-img-slider a {
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.5;
+}
+.card-img-custom .overlay-img-cad .bottom-img-slider a:hover {
+  opacity: 1;
+}
+.card-img-custom .overlay-img-cad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+}
+
+/* media query */
 @media screen and (min-width: 768px) {
   .menu .dropdown-menu {
     display: block;
