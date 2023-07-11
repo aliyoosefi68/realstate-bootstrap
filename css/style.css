@@ -84,7 +84,9 @@
 * {
   font-family: "iranyekan";
 }
-
+a {
+  text-decoration: none;
+}
 .bg-navbar {
   background-color: #1d2a3d;
 }
@@ -175,9 +177,7 @@ input::placeholder {
 }
 
 /* slider-1st */
-.slider-1st {
-  position: relative;
-}
+
 .custom-card1 {
   transition: 0.3s ease;
 }
@@ -193,9 +193,15 @@ input::placeholder {
   top: 0;
   right: 0;
   left: 0;
-  background: #1d2a3d;
-  opacity: 0.5;
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0.6) 0%,
+
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+
   color: #fff;
+  border-radius: 5px 5px 0 0;
 }
 .card-img-custom .overlay-img-cad .top-img-slider small {
   background-color: #1d2a3d;
@@ -218,6 +224,9 @@ input::placeholder {
   right: 0;
   bottom: 0;
   color: #fff;
+}
+.container-item {
+  padding: 20px;
 }
 
 /* media query */
