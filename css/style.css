@@ -166,7 +166,8 @@ input::placeholder {
   color: #000;
   border-color: transparent;
 }
-.features h5 {
+.features,
+.features2 h5 {
   font-size: 16;
   font-weight: 600;
 }
@@ -175,14 +176,19 @@ input::placeholder {
   font-size: 14px;
   letter-spacing: 7px;
 }
+.features2 p {
+  font-weight: 300;
+  font-size: 14px;
+}
 
 /* slider-1st */
 
 .custom-card1 {
   transition: 0.3s ease;
+  overflow: hidden;
 }
 .custom-card1:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px !important;
 }
 .card-img-custom {
   position: relative;
@@ -202,6 +208,16 @@ input::placeholder {
 
   color: #fff;
   border-radius: 5px 5px 0 0;
+}
+.card-img-custom {
+  width: 100%;
+  height: 250px;
+}
+.card-img-custom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .card-img-custom .overlay-img-cad .top-img-slider small {
   background-color: #1d2a3d;
@@ -226,8 +242,72 @@ input::placeholder {
   color: #fff;
 }
 .container-item {
-  padding: 20px;
+  padding: 10px;
+  background-color: transparent;
+  margin-bottom: 20px;
 }
+.slick-dots li button:before {
+  font-size: 12px;
+}
+.slick-dots li.slick-active button:before {
+  color: #1d2a3d;
+}
+
+.city-images {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.city-images img {
+  transition: 0.5s;
+}
+.city-images:hover img {
+  transform: scale(1.3) rotate(3deg);
+  transition: 0.5s;
+}
+
+.overlay3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+}
+.overlay-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1.2rem;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.overlay-text p {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.overlay-text small {
+  font-weight: 300;
+}
+.card,
+.custom-card1 {
+  border-radius: 15px;
+}
+
+.choose-us-card p {
+  font-weight: 800;
+  font-size: 20px;
+}
+.choose-us-card small {
+  font-weight: 300;
+  font-size: 14px;
+}
+.choose-us-card {
+  transition: all ease 0.3s;
+}
+/*style image of city*/
 
 /* media query */
 @media screen and (min-width: 768px) {
@@ -252,5 +332,10 @@ input::placeholder {
   .menu .dropdown-menu a {
     transition: 0.2s;
     margin: 10px 0px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .container-item {
+    padding: 0px;
   }
 }
