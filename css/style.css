@@ -415,6 +415,55 @@ input::placeholder {
   visibility: visible;
   transform: scale(1);
 }
+
+.custom-card-price:hover .overlay-img-cad2 {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+/*=============================Blog Card Slider=======================================*/
+.overlay4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: 0.3s;
+  /* z-index: 99; */
+}
+.overlay4 a {
+  transition: 0.3s;
+  opacity: 0;
+  visibility: visible;
+  border-radius: 15px;
+  font-size: 13px;
+  font-weight: 800;
+  background-color: #2980b9 !important;
+  color: #fff !important;
+  transition-delay: 0.2s;
+  transform: scale(0);
+}
+.hover-card:hover .overlay4 {
+  opacity: 1;
+  visibility: visible;
+}
+.hover-card:hover .overlay4 a {
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.3s;
+}
+.hover-card .overlay4 a:hover {
+  color: #2980b9 !important;
+  background-color: #fff !important;
+  transform: scale(1.1);
+}
 /*style image of city*/
 
 /* media query */
