@@ -497,3 +497,10 @@ input::placeholder {
     padding: 0px;
   }
 }
+.partners .card {
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.partners .card:hover {
+  background: #f6f6f6 !important;
+}
