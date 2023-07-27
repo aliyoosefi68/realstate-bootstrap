@@ -1,0 +1,7 @@
+.about small {
+  font-weight: 300;
+  text-align: justify;
+  line-height: 2;
+  font-size: 14px;
+  display: block;
+}
