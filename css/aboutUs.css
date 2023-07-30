@@ -1,7 +1,16 @@
 .about small {
   font-weight: 300;
   text-align: justify;
-  line-height: 2;
+  line-height: 1.8;
   font-size: 14px;
   display: block;
+}
+.aboutus-info {
+  transition: 0.3s;
+  padding: 8px;
+  border-radius: 10px;
+}
+.aboutus-info:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
 }
