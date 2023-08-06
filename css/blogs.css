@@ -24,3 +24,8 @@
   color: #ff5a60 !important;
   margin-right: 10px;
 }
+.qu {
+  border-radius: 15px;
+  border-right: 4px solid #ff5a60 !important;
+  border-left: 4px solid #ff5a60 !important;
+}
