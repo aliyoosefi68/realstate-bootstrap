@@ -29,3 +29,30 @@
   border-right: 4px solid #ff5a60 !important;
   border-left: 4px solid #ff5a60 !important;
 }
+.icon-arrow {
+  color: #8493a2 !important;
+  transition: 0.1s;
+}
+.icon-arrow:hover {
+  color: #ff5a60 !important;
+}
+.right-arrow p {
+  color: #8493a2;
+  transition: 0.1s;
+}
+.right-arrow p:hover {
+  color: #ff5a60 !important;
+}
+
+.review img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.date-comment {
+  font-size: 12px;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+}
