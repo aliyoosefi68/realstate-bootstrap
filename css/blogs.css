@@ -54,5 +54,23 @@
   font-size: 12px;
   font-weight: 300;
 }
+
+.reviwe2 textarea::placeholder,
+input::placeholder {
+  font-weight: 300;
+  font-size: 13px !important;
+}
+.reviwe2 a {
+  background-color: #ff5a60 !important;
+  margin-top: 10px;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.reviwe2 a:hover {
+  background-color: #fff !important;
+  margin-top: 10px;
+  color: #ff5a60;
+  border-color: #ff5a60;
+}
 @media (min-width: 768px) {
 }
