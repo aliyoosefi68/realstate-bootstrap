@@ -147,3 +147,13 @@ $(".slider2-comment").slick({
     // instead of a settings object
   ],
 });
+$(".slider-sidebar").slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  rtl: true,
+  arrows: false,
+  autoplay: true,
+});

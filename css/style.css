@@ -1,5 +1,6 @@
 @import url(./aboutUs.css);
 @import url(./blogs.css);
+@import url(./category.css);
 
 @font-face {
   font-family: iranyekan;
@@ -147,15 +148,7 @@ input::placeholder {
   font-size: 14px;
   font-weight: 300;
 }
-.form-group select,
-input {
-  border: 1px solid #eee;
-}
-.form-group select,
-input::placeholder {
-  font-size: 14px;
-  font-weight: 300;
-}
+
 .header-two a {
   font-size: 14px;
   border-left: 4px dotted #ccc;
