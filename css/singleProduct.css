@@ -1,0 +1,32 @@
+.ico-printer a {
+  background-color: #ff5a60;
+  border: 0;
+  transition: 0.3s;
+  box-shadow: none !important;
+}
+.ico-printer a svg {
+  color: #fff;
+}
+.ico-printer a:hover {
+  background-color: #e9534f;
+  box-shadow: 0 0 10px rgba(233, 83, 79, 0.8) !important;
+}
+.ico-printer h5 {
+  font-weight: 750;
+}
+.card-customer-sidebar img {
+  width: 8rem;
+}
+.card-customer-sidebar .my-homes {
+  font-size: 13px;
+  font-weight: light;
+}
+.card-customer-sidebar textarea {
+  border: 1px solid #eee !important;
+  resize: none;
+}
+.card-customer-sidebar textarea::placeholder,
+input::placeholder {
+  font-weight: 300;
+  font-size: 13px !important;
+}
